@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+*.log
+*.faiss
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+__snapshots__/
+
+# Environment & secrets
+.env
+.env.local
+.env.*
+*.json
+
+# Build / dist
+build/
+dist/
+*.spec
